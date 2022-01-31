@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 30rem;
+    padding: 30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, 
+    	rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(../images/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.navbar-nav{margin-left: auto;}
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-nav .nav-item{margin-right: 40px;}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light 
+.navbar-nav .nav-link.active, .navbar-light .navbar-nav 
+.nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+}
+
+/*banner css*/
+.banner-content{
+	position: relative;
+	padding: 180px 0px 120px 0px;
+}
+.banner-content h1{
+	position: relative;
+	font-size: 100px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+    line-height: 85px;
+}
+.banner-content p{
+	color: rgba(255, 255, 255, 0.5) !important;
+	font-family: 'Nunito', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.get-start{margin-top: 50px;}
+.get-start a{
+	color: #fff;
+    background: #4f837f;
+    padding: 20px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.get-start a:hover{
+	background-color: #6ba19d;
+	transition: 1s;
+}
+.built{
+	padding-top: 160px;
+    background: linear-gradient(to bottom, 
+    	#000000 0%, rgba(0, 0, 0, 0.9) 75%, 
+    	rgba(0, 0, 0, 0.8) 100%);
+}
+.built-content h1{
+	text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Nunito';
+    font-size: 40px;
+    line-height: 65px;
+}
+.built-content p{
+	text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 2px;
+    line-height: 27px;
+    padding-bottom: 65px;
+}
+.project-section{margin-top: 10%;}
+.project-content{
+	padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+    margin-top: 150px;
+}
+.project-content h4{
+	font-family: 'Varela Round';
+    line-height: 45px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.project-content p{
+	color: rgba(0, 0, 0, 0.5);
+    font-family: 'Nunito';
+    font-weight: 500;
+    line-height: 28px;
+}
+.misty-content{
+	position: relative;
+	background: #000;
+    padding: 135px 45px;
+}
+.misty-content h4{
+	color: #ffff;
+    font-family: 'Varela Round';
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+.misty-content p{
+	color: rgba(255, 255, 255, 0.5);
+    font-family: 'Nunito';
+}
+.misty-content hr{
+	border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+    margin-left: 0;
+}
+.mountain-content{
+	position: relative;
+	background: #000;
+    padding: 123px 45px;
+}
+.mountain-content h4{
+	text-align: right;
+	color: #ffff;
+    font-family: 'Varela Round';
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 45px;
+    width: 90%;
+}
+.mountain-content p{
+	text-align: right;
+	color: rgba(255, 255, 255, 0.5);
+    font-family: 'Nunito';
+    width: 90%;
+}
+.mountain-content hr{
+	border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+    margin-right: 47px;
+}
+.subscribe{
+	padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, 
+    	rgba(0, 0, 0, 0.5) 75%, #000000 100%), 
+    url(../images/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: 10%;
+}
+.subscribe-content i{
+	color: #ffff;
+    font-size: 35px;
+}
+.subscribe-content h2{
+	color: #fff;
+	font-family: 'Varela Round';
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 65px;
+	margin-bottom: 45px;
+}
+.form-group input{
+	box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+    margin-left: 10%;
+    width: 60%;
+}
+.form-group button{
+	position: absolute;
+    top: 65%;
+    left: 78%;
+    transform: translateX(-50%);
+    color: #fff;
+    background-color: #548b87;
+    border-color: #4f837f;
+    padding: 18px 60px;
+    letter-spacing: 2px;
+}
+.form-group .btn-primary:hover{
+    color: #fff;
+    background-color: #65a5a0;
+    border-color: #4f837f;
+    transition: 1s;
+}
+.address-section{background-color: #000;}
+.address-box{
+	background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    border-bottom: 0.25rem solid #64a19d;
+}
+.address-box i{
+	color: #548b87;
+    font-size: 20px;
+    line-height: 50px;
+}
+.address-box h6{
+	font-size: 14px;
+    font-family: 'Varela Round';
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+.address-box h6:after{
+	content: "";
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #548b87;
+}
+.address-box h5{
+	font-size: 14px;
+    font-family: 'Varela Round';
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.address-box h5:after{
+	content: "";
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #548b87;
+}
+.address-box p{
+	margin-top: 45px;
+    color: #777;
+    font-family: 'Nunito';
+    font-size: 13px;
+}
+.address-box a{
+    color: #548b87 !important;
+    font-family: 'Nunito';
+    font-size: 13px;
+}
+.address-section .social-icon{justify-content: center;}
+.address-section .social-icon a{
+	text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+.footer{background-color: #000;}
+.footer p{
+	text-align: center;
+	color: #fff;
+	margin-top: 85px;
+}
